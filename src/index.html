@@ -4,8 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <h1 class="text-3xl underline">Hello world!</h1>
+    <section class="m-10 flex justify-center">
+      <div
+        class="min-h-screen p-10 max-w-full shadow-2xl border-2 border-b-black bg-primary"
+      >
+        <div
+          class="flex flex-col gap-y-4 md:flex-row justify-between items-center"
+        >
+          <p class="font-dancing text-5xl font-bold">WanderSnap</p>
+          <nav>
+            <ul
+              class="flex flex-row justify-center items-center gap-5 text-bage-base font-semibold text-md"
+            >
+              <li>Gallery</li>
+              <li>Contact</li>
+              <li>About</li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="text-center">
+          <h1 class="text-7xl font-dancing mt-10 mb-10">& More</h1>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-4 grid-rows-(--my-grid-rows) gap-4"
+        >
+          <div class="col-start-1 col-end-2 row-start-1 row-end-3">
+            <img
+              src="./images/image1.jpg"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="col-start-2 col-end-3 row-start-1 row-end-3">
+            <img
+              src="./images/image2.jpg"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="col-start-3 col-end-4 row-start-1 row-end-3">
+            <img
+              src="./images/image8.jpg"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="">
+            <img
+              src="./images/image3.jpg"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-start-3">
+            <img
+              src="./images/image4.jpg"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-start-2">
+            <img
+              src="./images/image5.jpg"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <div class="row-start-2 row-end-3">
+            <img
+              src="./images/image6.jpg"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+
+          <div class="row-start-2">
+            <img
+              src="./images/image7.jpg"
+              alt=""
+              class="h-full w-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
