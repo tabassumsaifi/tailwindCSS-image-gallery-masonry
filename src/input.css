@@ -1,2 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import 'tailwindcss' source(none);
 @source "./";
+
+@theme {
+  --font-dancing: 'Dancing Script', cursive;
+  --font-Raleway: 'Raleway', sans-serif;
+  --color-primary: #f7e2d2;
+
+  --color-bage-base: #e1ab83;
+  --my-grid-rows: repeat(5, 10vw);
+}
+
+@layer base {
+  body {
+    font-family: var(--font-Raleway);
+  }
+}
