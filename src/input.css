@@ -9,7 +9,7 @@
   --color-primary: #f7e2d2;
 
   --color-bage-base: #e1ab83;
-  --my-grid-rows: repeat(5, 10vw);
+  --my-grid-rows: repeat(3, minmax(15rem, 5vw));
 }
 
 @layer base {
